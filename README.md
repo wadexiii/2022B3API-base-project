@@ -11,6 +11,15 @@ $ npm run start
 
 ```
 
+## Get tests
+
+```bash
+# unit tests
+$ cd src/
+$ git submodule add git@github.com:Wikodit/2022B3API-testing.git test/
+
+```
+
 ## Test
 
 ```bash
