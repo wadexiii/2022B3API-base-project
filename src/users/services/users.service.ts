@@ -16,7 +16,7 @@ export class UserService {
     return this.usersRepository.save(newUser)
   }
 
-  async findOne(username: string): Promise<User | undefined> {
-    return this.users.find((user: { username: string; }) => user.username === username);
+  async findOne(id: string): Promise<User | undefined> {
+    return this.users.find((user: { id: string; }) => user.id === id);
   }
 }
